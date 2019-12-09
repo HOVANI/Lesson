@@ -3,9 +3,9 @@ import './ListItem.css';
 
 const ListItem = () => {
     return (
-        <li className="row list">
+        <li className="row list align-items-center">
             <span className="col-sm-4">It's my first note</span>
-            <input type="checkbox" className="col-sm-2 check"/>
+            <input type="checkbox" className="col-sm-2 check" />
             <button type='submit' className="col-sm-2">Del</button>
             <select className="col-sm-2">
                 <option value="Color">Color</option>
